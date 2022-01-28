@@ -1,5 +1,5 @@
 FROM node:14-alpine AS todobackend
-WORKDIR /app
+WORKDIR /back-end
 EXPOSE 3001
 ADD node_modules.tar.gz ./
 COPY ./ ./
