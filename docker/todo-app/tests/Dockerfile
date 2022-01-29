@@ -1,5 +1,6 @@
 FROM mjgargani/puppeteer:trybe1.0 AS todotests
-WORKDIR /tests
+WORKDIR /
 ADD ./node_modules.tar.gz .
 COPY . .
-ENTRYPOINT [ "npm test" ]
+CMD [ "npm", "test" ]
+# ENTRYPOINT [ "npm test" ]
