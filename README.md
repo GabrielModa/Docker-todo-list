@@ -8,7 +8,7 @@ Neste projeto, você será capaz de:
 
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-015-a-project-docker-todo-list.git`
+  * `git clone https://github.com/GabrielModa/Docker-todo-list.git`
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-015-a-project-docker-todo-list`
 
