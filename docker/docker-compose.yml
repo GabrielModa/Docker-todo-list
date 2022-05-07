@@ -19,5 +19,5 @@ services:
     environment: 
     - FRONT_HOST=todofront
     depends_on:
-    - todoback 
+    - todoback  
     - todofront
